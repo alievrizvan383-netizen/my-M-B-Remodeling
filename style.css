@@ -157,6 +157,32 @@ main {
   /* section third */
   section.third {
     h2 {
+      text-align: center;
+    }
+    div.parent {
+      display: flex;
+      margin-top: 140px;
+      gap: 30px;
+      justify-content: space-around;
+
+      div.child {
+        width: 232px;
+        text-align: center;
+
+        h3 {
+          font-size: 22px;
+          color: var(--secondary-color);
+          font-weight: 600;
+          line-height: 31.02px;
+          height: 62px;
+        }
+        p {
+          font-size: var(--primary-font);
+          font-weight: 200;
+          color: var(--basic-color);
+          margin-top: 40px;
+        }
+      }
     }
   }
 
