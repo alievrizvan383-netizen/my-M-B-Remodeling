@@ -22,6 +22,12 @@ body {
   align-items: center;
 }
 
+.heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--basic-color);
+}
+
 header {
   height: 141px;
   background-color: var(--primary-color);
@@ -125,11 +131,6 @@ main {
       div.wrapper {
         width: 460px;
 
-        h2 {
-          font-size: 40px;
-          font-weight: 600;
-          color: var(--basic-color);
-        }
         p {
           font-size: var(--primary-font);
           font-weight: 200;
@@ -154,4 +155,10 @@ main {
   }
 
   /* section third */
+  section.third {
+    h2 {
+    }
+  }
+
+  /* section four */
 }
